@@ -1,0 +1,110 @@
+@media (min-width: 768px){
+.navbar {
+border-radius: 0px !important;
+}}
+body::-webkit-scrollbar-track
+{	background-color: rgba(0,0,0,0);
+}
+body::-webkit-scrollbar
+{	width: 6px;	background-color: rgba(0,0,0,0);
+}
+body::-webkit-scrollbar-thumb
+{ width: 5px;	border-radius: 3px;	background-color: rgba(0,0,0,0.5);
+}
+
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#vanshika-bg
+{
+  background: url("../images/vanshika-bg.jpeg") center center fixed no-repeat;
+  background-size: cover; height: 600px; position:relative;
+}
+.position-center-center {
+  width: 100%;
+  text-align: center;
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+   position: relative;
+   top: 50px;
+}
+#section1 {padding-top:50px;height:300px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:300px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:300px;color: #fff; background-color: #ff9800;}
+#section4 {padding-top:50px;height:300px;color: #fff; background-color: #00bcd4;}
+
+
+#footer {
+  background-image: url(../images/#.jpg);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+}
+
+.footer_base
+{
+  background-color: #16a085;
+  text-align: center;
+  padding:10px;
+  left:0;
+  color:black;
+  border-top: 1px solid #464646;
+}
+
+#map {
+  background-color: white;
+  opacity: 0.6;
+  width: 80px;
+  height: 22px;
+}
+#hide{ height: 700px; }
+.parallax { background-image: url("../images/4.jpeg"); height: 700px; background-attachment: fixed;
+background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+#hr
+{
+  border-top: 1px solid #8c8b8b;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input, textarea	{
+  background:transparent;
+  border:0;
+  border-bottom:1px solid grey;
+  color:lightgrey;
+  padding:5px;
+  margin:5px;
+  width: 80%;
+  outline:none;
+}
+
+input[type='email'] { width: 90%;
+}
+
+textarea { width: 90%;
+}
+
+button
+{
+
+  background-color:inherit;
+  width:90%;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+}
